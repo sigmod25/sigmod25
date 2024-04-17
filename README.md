@@ -7,7 +7,7 @@
 ### Install dependencies
 1. Install [SBT](https://www.scala-sbt.org/1.x/docs/Setup.html)
 2. Install [Python](https://www.python.org)
-3. Install [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and run `npm install` in the test folder.
+3. Install [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and run `npm install` in the test folder (./smart_contracts_evaluation).
 4. Install [Ganache](https://trufflesuite.com/ganache/): npm install -g ganache
 5. Install [Truffle](https://trufflesuite.com/docs/truffle/how-to/install/): npm install -g truffle
 
