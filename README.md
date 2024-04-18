@@ -66,12 +66,6 @@ cd smart_contracts_evaluation
 ```
 For example, to run experiment for auction, run `./test.sh auction`.
 
-<!-- ```
-truffle compile contracts/[benchmark_folder]/[contractNameVersion].sol
-truffle test ./test_longTrace/[contractName]_test_gas.js --compile-none
-```
-Here, the "benchmark_folder" can be [min](https://github.com/loulankxh/gasOpt-test/tree/47dea5f59f2e1e79a97c2c0171a96ddca3ba3d6c/contracts/min), [noOptimization](https://github.com/loulankxh/gasOpt-test/tree/47dea5f59f2e1e79a97c2c0171a96ddca3ba3d6c/contracts/noOptimization) and [reference](https://github.com/loulankxh/gasOpt-test/tree/47dea5f59f2e1e79a97c2c0171a96ddca3ba3d6c/contracts/reference), storing the Solidity programs of DeSCO, Incremental Datalog, and Reference respectively. The "contarctName" can be "auction", or any other existing contracts in the [benchmark](https://github.com/loulankxh/declarative-smart-contracts/tree/29b0cebc5b3df05d920e1555efda6e4884cd7184/benchmarks). The corresponding "contractNameVersion" can be "auction1", "auction2", ..., which represent Solidity programms under different materialization plans of the same contract. -->
-
 ## Supplementary materials
 Appendix for detailed proof for some lemma and theorem used in the paper: `CompleteProof.pdf`.
 
